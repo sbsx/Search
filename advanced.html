@@ -9,8 +9,20 @@
 
         <div>
             <form action="https://www.google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
+                <label for="all"> all these words: </label>
+                <input id="all" type="text" name="as_q">
+                <label for="exact"> this exact word or phrase: </label>
+                <input id="exact" type="text" name="as_epq">
+                <label for="any"> any of these words:</label>
+                <input id="any" type="text" name="as_oq">
+                <label for="none">none of these words:</label>
+                <input id="none" type="text" name="as_eq">
+                <label for="range"> numbers ranging from:</label>
+                <input id="range" type="text" name="as_nlo">
+                <label for="end"> to </label>
+                <input id="end" type="text" name="as_nhi">
+                
+                <input type="submit" value="Advanced Search" aria-label="Advanced Search">
             </form>
         </div>
         
