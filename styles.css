@@ -1,0 +1,63 @@
+#navbar {
+    display:flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.centerflex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.centerflexform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+    /* flex: 1; */
+}
+
+.searchbar {
+    flex-basis: 100%;
+    /* width: auto; */
+    border-radius: 24px;
+}
+
+.searchbutton {
+    padding: 5px;
+    width: auto;
+}
+
+.leftflex {
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    /* height: 90vh; */
+}
+
+.leftflexform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap:10px;
+}
+
+#lucky {
+    padding: 5px;
+    width: auto;
+}   
+
+#imagebar {
+    display:flex;
+}
+
+body {
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+/* #advancedbar {
+    display:flex;
+} */
